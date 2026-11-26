@@ -1,0 +1,26 @@
+add_namespace = bolshevsreich
+
+country_event = {
+ id = bolshevsreich.10
+ title = bolshevsreich.10.t
+ desc = bolshevsreich.10.d
+ picture = GFX_report_event_china
+ is_triggered_only = yes
+
+ immediate = {
+  create_country_leader = {
+   name = "Zhang Xueliang"
+   desc = "POLITICS_ZHANG_XUELIANG_DESC"
+   picture = "Portrait_China_Zhang_Xueliang.dds"
+   expire = "1965.1.1"
+   ideology = despotism
+   traits = { }
+  }
+  annex_country = { target = SHX transfer_troops = yes }
+  annex_country = { target = XSM transfer_troops = yes }
+  annex_country = { target = YUN transfer_troops = yes }
+  annex_country = { target = GXC transfer_troops = yes }
+  annex_country = { target = SIK transfer_troops = yes }
+ }
+ option = { name = bolshevsreich.10.a }
+}

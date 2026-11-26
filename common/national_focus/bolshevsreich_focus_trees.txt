@@ -1,0 +1,161 @@
+focus_tree = {
+ id = BR_GER
+ country = { factor = 0 modifier = { add = 10 tag = GER } }
+ default = no
+ continuous = no
+
+ focus = { id = BR_GER_constitutional_order icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 add_stability = 0.05 } }
+ focus = { id = BR_GER_mitteleuropa_market icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_GER_constitutional_order } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_GER_imperial_compromise icon = GFX_goal_generic_support_democracy x = 3 y = 1 cost = 5 prerequisite = { focus = BR_GER_constitutional_order } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_GER_general_staff icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_GER_constitutional_order } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_AUS
+ country = { factor = 0 modifier = { add = 10 tag = AUS } }
+ default = no
+ focus = { id = BR_AUS_confederation icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_AUS_vienna_compromise icon = GFX_goal_generic_support_democracy x = 1 y = 1 cost = 5 prerequisite = { focus = BR_AUS_confederation } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_AUS_common_market icon = GFX_goal_generic_construct_civ_factory x = 3 y = 1 cost = 5 prerequisite = { focus = BR_AUS_confederation } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_AUS_alpine_defence icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_AUS_confederation } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_HUN
+ country = { factor = 0 modifier = { add = 10 tag = HUN } }
+ default = no
+ focus = { id = BR_HUN_national_accord icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_HUN_danube_industry icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_HUN_national_accord } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_HUN_crown_and_parliament icon = GFX_goal_generic_support_democracy x = 3 y = 1 cost = 5 prerequisite = { focus = BR_HUN_national_accord } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_HUN_frontier_army icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_HUN_national_accord } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_ILI
+ country = { factor = 0 modifier = { add = 10 tag = ILI } }
+ default = no
+ focus = { id = BR_ILI_adriatic_council icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_ILI_adriatic_ports icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_ILI_adriatic_council } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_ILI_federal_charter icon = GFX_goal_generic_support_democracy x = 3 y = 1 cost = 5 prerequisite = { focus = BR_ILI_adriatic_council } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_ILI_coastal_guard icon = GFX_goal_generic_navy_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_ILI_adriatic_council } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_BOH
+ country = { factor = 0 modifier = { add = 10 tag = BOH } }
+ default = no
+ focus = { id = BR_BOH_bohemian_charter icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_BOH_skoda_works icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_BOH_bohemian_charter } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_BOH_prague_university icon = GFX_goal_generic_scientific_exchange x = 3 y = 1 cost = 5 prerequisite = { focus = BR_BOH_bohemian_charter } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_BOH_mountain_defence icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_BOH_bohemian_charter } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_GAL
+ country = { factor = 0 modifier = { add = 10 tag = GAL } }
+ default = no
+ focus = { id = BR_GAL_galician_diet icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_GAL_grain_exports icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_GAL_galician_diet } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_GAL_local_autonomy icon = GFX_goal_generic_support_democracy x = 3 y = 1 cost = 5 prerequisite = { focus = BR_GAL_galician_diet } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_GAL_eastern_frontier icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_GAL_galician_diet } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_BDU
+ country = { factor = 0 modifier = { add = 10 tag = BDU } }
+ default = no
+ focus = { id = BR_BDU_baltic_administration icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_BDU_klaipeda_harbour icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_BDU_baltic_administration } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_BDU_ducal_compromise icon = GFX_goal_generic_support_democracy x = 3 y = 1 cost = 5 prerequisite = { focus = BR_BDU_baltic_administration } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_BDU_german_guarantee icon = GFX_goal_generic_improve_relations x = 5 y = 1 cost = 5 prerequisite = { focus = BR_BDU_baltic_administration } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_CAT
+ country = { factor = 0 modifier = { add = 10 tag = CAT } }
+ default = no
+ focus = { id = BR_CAT_republican_cortes icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 add_stability = 0.05 } }
+ focus = { id = BR_CAT_barcelona_industry icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_CAT_republican_cortes } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_CAT_autonomy_compromise icon = GFX_goal_generic_support_democracy x = 3 y = 1 cost = 5 prerequisite = { focus = BR_CAT_republican_cortes } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_CAT_militia_reform icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_CAT_republican_cortes } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_FIN
+ country = { factor = 0 modifier = { add = 10 tag = FIN } }
+ default = no
+ focus = { id = BR_FIN_red_councils icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_FIN_timber_and_paper icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_FIN_red_councils } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_FIN_soviet_trade icon = GFX_goal_generic_improve_relations x = 3 y = 1 cost = 5 prerequisite = { focus = BR_FIN_red_councils } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_FIN_northern_defence icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_FIN_red_councils } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_MAF
+ country = { factor = 0 modifier = { add = 10 tag = MAF } }
+ default = no
+ focus = { id = BR_MAF_colonial_office icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_MAF_railway_network icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_MAF_colonial_office } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_MAF_local_auxiliaries icon = GFX_goal_generic_army_doctrine x = 3 y = 1 cost = 5 prerequisite = { focus = BR_MAF_colonial_office } completion_reward = { add_war_support = 0.05 } }
+ focus = { id = BR_MAF_settler_administration icon = GFX_goal_generic_improve_relations x = 5 y = 1 cost = 5 prerequisite = { focus = BR_MAF_colonial_office } completion_reward = { add_stability = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_BUL
+ country = { factor = 0 modifier = { add = 10 tag = BUL } }
+ default = no
+ focus = { id = BR_BUL_sofia_cabinet icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_BUL_black_sea_trade icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_BUL_sofia_cabinet } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_BUL_balkan_guarantees icon = GFX_goal_generic_improve_relations x = 3 y = 1 cost = 5 prerequisite = { focus = BR_BUL_sofia_cabinet } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_BUL_army_modernisation icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_BUL_sofia_cabinet } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_TUR
+ country = { factor = 0 modifier = { add = 10 tag = TUR } }
+ default = no
+ focus = { id = BR_TUR_imperial_council icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_TUR_anatolian_works icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_TUR_imperial_council } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_TUR_arab_provinces_compact icon = GFX_goal_generic_support_democracy x = 3 y = 1 cost = 5 prerequisite = { focus = BR_TUR_imperial_council } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_TUR_straits_command icon = GFX_goal_generic_navy_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_TUR_imperial_council } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_SOV
+ country = { factor = 0 modifier = { add = 10 tag = SOV } }
+ default = no
+ focus = { id = BR_SOV_permanent_revolution icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_SOV_five_year_reconstruction icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_SOV_permanent_revolution } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_SOV_workers_councils icon = GFX_goal_generic_support_communism x = 3 y = 1 cost = 5 prerequisite = { focus = BR_SOV_permanent_revolution } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_SOV_red_army_reform icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_SOV_permanent_revolution } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_FRA
+ country = { factor = 0 modifier = { add = 10 tag = FRA } }
+ default = no
+ focus = { id = BR_FRA_republic_in_crisis icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_FRA_industrial_recovery icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_FRA_republic_in_crisis } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_FRA_unity_government icon = GFX_goal_generic_support_democracy x = 3 y = 1 cost = 5 prerequisite = { focus = BR_FRA_republic_in_crisis } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_FRA_rearmament icon = GFX_goal_generic_army_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_FRA_republic_in_crisis } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_ENG
+ country = { factor = 0 modifier = { add = 10 tag = ENG } }
+ default = no
+ focus = { id = BR_ENG_parliamentary_consensus icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_ENG_commonwealth_markets icon = GFX_goal_generic_construct_civ_factory x = 1 y = 1 cost = 5 prerequisite = { focus = BR_ENG_parliamentary_consensus } completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_ENG_imperial_conference icon = GFX_goal_generic_improve_relations x = 3 y = 1 cost = 5 prerequisite = { focus = BR_ENG_parliamentary_consensus } completion_reward = { add_stability = 0.05 } }
+ focus = { id = BR_ENG_home_fleet icon = GFX_goal_generic_navy_doctrine x = 5 y = 1 cost = 5 prerequisite = { focus = BR_ENG_parliamentary_consensus } completion_reward = { add_war_support = 0.05 } }
+}
+
+focus_tree = {
+ id = BR_CHI
+ country = { factor = 0 modifier = { add = 10 tag = CHI } }
+ default = no
+ focus = { id = BR_CHI_northeastern_leadership icon = GFX_goal_generic_political_reform x = 3 y = 0 cost = 5 completion_reward = { add_political_power = 50 } }
+ focus = { id = BR_CHI_reunify_the_republic icon = GFX_goal_generic_demand_territory x = 3 y = 1 cost = 5 prerequisite = { focus = BR_CHI_northeastern_leadership } completion_reward = { country_event = { id = bolshevsreich.10 } } }
+ focus = { id = BR_CHI_national_reconstruction icon = GFX_goal_generic_construct_civ_factory x = 1 y = 2 cost = 5 prerequisite = { focus = BR_CHI_reunify_the_republic } completion_reward = { add_political_power = 50 add_stability = 0.05 } }
+ focus = { id = BR_CHI_new_manchurian_army icon = GFX_goal_generic_army_doctrine x = 5 y = 2 cost = 5 prerequisite = { focus = BR_CHI_reunify_the_republic } completion_reward = { add_war_support = 0.05 } }
+}
