@@ -1,0 +1,5 @@
+add_to_faction = AUS
+add_to_faction = HUN
+add_to_faction = BOH
+add_to_faction = ILI
+add_to_faction = GAL

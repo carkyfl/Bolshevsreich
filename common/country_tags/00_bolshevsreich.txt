@@ -1,0 +1,11 @@
+graphical_culture = western_european_gfx
+graphical_culture_2d = western_european_2d
+
+AUS = "country_tags/00_countries.txt"
+HUN = "country_tags/00_countries.txt"
+ILI = "country_tags/00_countries.txt"
+BOH = "country_tags/00_countries.txt"
+GAL = "country_tags/00_countries.txt"
+BDU = "country_tags/00_countries.txt"
+CAT = "country_tags/00_countries.txt"
+MAF = "country_tags/00_countries.txt"

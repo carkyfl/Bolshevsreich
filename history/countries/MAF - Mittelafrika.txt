@@ -1,0 +1,13 @@
+capital = 542
+
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 65
+	democratic = 15
+	fascism = 15
+	communism = 5
+}

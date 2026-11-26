@@ -1,0 +1,15 @@
+add_namespace = bolshevsreich
+
+country_event = {
+	id = bolshevsreich.1
+	title = bolshevsreich.1.t
+	desc = bolshevsreich.1.d
+	picture = GFX_report_event_german_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = bolshevsreich.1.a
+		ai_chance = { factor = 100 }
+	}
+}

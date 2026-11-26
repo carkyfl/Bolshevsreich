@@ -1,0 +1,8 @@
+AUS = "gfx/flags/AUS.tga"
+HUN = "gfx/flags/HUN.tga"
+ILI = "gfx/flags/ILI.tga"
+BOH = "gfx/flags/BOH.tga"
+GAL = "gfx/flags/GAL.tga"
+BDU = "gfx/flags/BDU.tga"
+CAT = "gfx/flags/CAT.tga"
+MAF = "gfx/flags/MAF.tga"

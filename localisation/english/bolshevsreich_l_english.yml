@@ -1,0 +1,31 @@
+﻿l_english:
+ BOL_name:0 "Bolshevsreich"
+ BOL_name_long:0 "The Bolshevsreich Scenario"
+
+ GER_bolshevsreich_desc:0 "The German Empire stands at the head of Mitteleuropa, a constitutional monarchy at the center of a continental bloc."
+ MITTELEUROPA:0 "Mitteleuropa"
+ MITTELEUROPA_desc:0 "A German-led alliance linking the Central Powers and their partners."
+
+ AUS:0 "Austria"
+ HUN:0 "Hungary"
+ ILI:0 "Iliria"
+ BOH:0 "Bohemia"
+ GAL:0 "Galicia-Lodomeria"
+ BDU:0 "Baltic Duchy"
+ CAT:0 "Catalonia"
+ FIN:0 "Finland"
+ MAF:0 "Mittelafrika"
+
+ AUS_ADJ:0 "Austrian"
+ HUN_ADJ:0 "Hungarian"
+ ILI_ADJ:0 "Illyrian"
+ BOH_ADJ:0 "Bohemian"
+ GAL_ADJ:0 "Galician"
+ BDU_ADJ:0 "Baltic"
+ CAT_ADJ:0 "Catalan"
+ FIN_ADJ:0 "Finnish"
+ MAF_ADJ:0 "African"
+
+ bolshevsreich.1.t:0 "The Continental Confederation"
+ bolshevsreich.1.d:0 "The former Austro-Hungarian territories now stand as a loose confederation under Vienna's diplomatic leadership."
+ bolshevsreich.1.a:0 "Maintain the confederation"
